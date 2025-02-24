@@ -1,0 +1,7 @@
+python3 -m venv env
+. env/bin/activate
+pip install --upgrade pip
+make i
+make mig
+make run
+make cru

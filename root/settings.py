@@ -24,11 +24,12 @@ SECRET_KEY = 'django-insecure-(b3-$ttecri=oanuwcgq%-n&vl2lj$fncxdv_-pe^2=q^+&(_0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
